@@ -5,10 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 992px) {
+    html {
+        font-size: 20px;
+        line-height: 1.75;
+    }
+}
+
 html {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 1.75;
     scroll-behavior: smooth;
 }
 

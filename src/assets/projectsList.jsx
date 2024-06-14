@@ -7,7 +7,7 @@ const projectsList = [
         username: "rajuhere",
         projectName: "UniBlind",
         location: "Remote, India",
-        duration: "April 2024",
+        duration: "April 2024 - Present",
         role: "Team Leader",
         description: "Led a 4-person team in developing UniBlind, a platform for open university discussions, focused on anonymity to promote candid conversations.",
         technologies: [

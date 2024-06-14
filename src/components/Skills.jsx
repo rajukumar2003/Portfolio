@@ -22,7 +22,7 @@ function Skills() {
     return (
         <section id='skills' className="bg-gray-900 text-white py-20">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-10 text-green-300">code<span className="text-purple-300"> : </span>skills</h2>
+                <h2 className="text-3xl font-bold mb-10 text-green-300">code<span className="text-purple-300"> : </span><span className=' text-cyan-300'>skills</span></h2>
                 <div className="flex flex-wrap justify-center ">
                     {skills.map((skill, index) => (
                         <div key={index} className="w-1/2 md:w-1/4 py-5">
@@ -35,7 +35,7 @@ function Skills() {
                 </div>
             </div>
             
-            <h2 className=" m-20 text-3xl font-bold mb-10 text-green-300 text-center">code<span className="text-purple-300"> : </span>projects</h2>
+            <h2 className="mx-auto m-20 text-3xl font-bold mb-10 text-green-300 text-center">code<span className="text-purple-300"> : </span><span className=' text-cyan-300'>projects</span></h2>
 
             {projectList.map((project, index) => (
                 <ProjectCard
