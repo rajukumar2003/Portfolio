@@ -30,7 +30,7 @@ function Activity() {
         const { startTime, endTime } = currentActivity;
 
         const totalDuration = Math.max(1, Math.floor(new Date(endTime) - new Date(startTime)));
-        const currentTime = new Date(); // Get the current time
+        const currentTime = new Date(); 
 
         // Calculate elapsed time based on the difference between current time and start time
         const elapsedTime = Math.max(0, Math.min(currentTime - new Date(startTime), totalDuration));
@@ -40,8 +40,12 @@ function Activity() {
 
 
     return (
-        <div className="bg-gray-900 text-white py-6">
+        <div className="bg-gray-900 text-white py-6 ">
             <div className="container mx-auto text-center">
+                <hr className=" border-t w-4/5 border-gray-600 mx-auto mb-5" /> 
+
+                <p className=' text-left pl-8  pb-4 text-[#b3dcf2] text-2xl font-bold'>activity :</p>
+
                 {currentActivity ? (
                     <div className="mb-4 flex flex-col items-center md:flex-row md:items-start md:space-x-4" key={currentActivity.id}>
                         {currentActivity.image && (
@@ -56,17 +60,17 @@ function Activity() {
                                 </a>
                             </div>
                         )}
-                        <div className="text-left">
-                            <h3 className="text-xl font-bold text-blue-300 pb-3 md:pb-0">@{currentActivity.username}</h3>
+                        <div className="text-left w-60">
+                            <h3 className="text-lg font-bold text-blue-300  md:pb-0">@{currentActivity.username}</h3>
                             <p className="text-orange-300">{currentActivity.status}</p>
                             <div className=" text-green-300 mb-4">{currentTime}</div> {/* Real-time clock */}
-                            
-                            <p className=" text-xl text-green-300 pb-2">{currentActivity.activity}</p>
-                            
-                            <p className=" font-bold text-xl text-gray-400">{currentActivity.songName}</p>
-                            <p className="text-gray-500">by {currentActivity.artistName}</p>
+
+                            <p className=" text-lg text-green-300 pb-2">{currentActivity.activity}</p>
+
+                            <p className=" font-bold text-xl text-gray-400 break-words">{currentActivity.songName}</p>
+                            <p className="text-gray-500 break-words">by {currentActivity.artistName}</p>
                             {/* Song progress bar */}
-                            <div className="w-full bg-gray-800 rounded-full h-2 mt-4 mb-2">
+                            <div className=" w-3/4 bg-gray-800 rounded-full h-2 mt-4 mb-2">
                                 <div
                                     style={{ width: `${calculateProgress()}%` }}
                                     className="bg-orange-300 rounded-full h-full transition-transform duration-500 ease-linear"
@@ -75,13 +79,13 @@ function Activity() {
                         </div>
                     </div>
                 ) :
-                    
-                (
-                    <div className="text-center">
-                            <p className="text-xl font-bold text-blue-300 pb-3 md:pb-0">@raju_kumar_12003</p>
-                        <p className="text-orange-300">Offline</p>
-                        <p className="text-green-300">{currentTime}</p>
-                    </div>)}
+
+                    (
+                        <div className="text-center pt-10">
+                            <p className="text-lg font-bold text-blue-300 pb-3 md:pb-0">@raju_kumar_12003</p>
+                            <p className="text-orange-300">Offline</p>
+                            <p className="text-green-300">{currentTime}</p>
+                        </div>)}
             </div>
         </div>
     );

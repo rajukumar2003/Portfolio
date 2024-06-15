@@ -14,7 +14,7 @@ function Introduction(){
                     <p className='text-green-300'>11:09:28 PM</p> */}
 
                     <span className='mt-3 p-8 md:p-0 '>
-                        <p className=' sm:hidden pb-4 text-[#b3dcf2] text-2xl font-bold'>bio</p>
+                        <p className=' sm:hidden pb-4 text-[#b3dcf2] text-2xl font-bold'>bio :</p>
                         <p className=" text-purple-300 text-wrap font-bold leading-8">
                             Hey, I'm Raju Kumar I'm a <span className="text-yellow-500">20</span> year old full stack developer and freelancer based in India,
                             I enhance my proficiency in emerging technologies through hands-on projects that address challenges I believe have the potential to
