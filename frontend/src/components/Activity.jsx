@@ -5,7 +5,7 @@ function Activity() {
     const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
 
     useEffect(() => {
-        const ws = new WebSocket('ws://localhost:3000');
+        const ws = new WebSocket('wss://portfolio-backend-otc0.onrender.com');
 
         ws.onmessage = (message) => {
             const activity = JSON.parse(message.data);
