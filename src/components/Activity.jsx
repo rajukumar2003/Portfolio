@@ -9,7 +9,6 @@ function Activity() {
 
         ws.onmessage = (message) => {
             const activity = JSON.parse(message.data);
-            console.log(activity);
             setCurrentActivity(activity);
         };
 

@@ -3,7 +3,7 @@ import profilePic from '../assets/profile.jpg'
 
 function Introduction(){
     return (
-        <div className="bg-gray-900 text-white py-6">
+        <div className="bg-gray-900 text-white py-4">
             <div className="container mx-auto md:text-left flex flex-col md:flex-row items-center">
                 <div className="rounded-lg overflow-hidden w-28 h-28 hidden sm:block">  {/* hidden sm:block -- img hidden on small screen*/}
                     <img src={profilePic} alt="raju" className="w-full h-full object-cover " />
