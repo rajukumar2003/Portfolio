@@ -2,8 +2,8 @@ import React from 'react';
 
 function InternshipCard({ avatar, username, projectName, location, duration, company, description, technologies }) {
     return (
-        <section className=" py-5">
-            <div className="bg-gray-900 p-6 rounded-lg mb-4 relative border border-r-8 border-b-8 border-indigo-900 w-full md:w-3/5 mx-auto">
+        <section className=" py-3">
+            <div className="bg-gray-900 p-5 rounded-lg mb-4 relative border border-r-8 border-b-8 border-indigo-900 w-full md:w-3/5 mx-auto">
                 <div className="flex flex-wrap items-center mb-4">
                     <img src={avatar} alt='link' className="w-7 h-7 rounded-full mr-3" />
                     {/* <span className="text-sm text-gray-400 ">{username}</span> */}

@@ -55,7 +55,7 @@ function Activity() {
     return (
         <div className="bg-gray-900 text-white py-6 ">
             <div className="container mx-auto text-center">
-                <hr className=" border-t w-4/5 border-gray-600 mx-auto mb-5" />
+                <hr className=" border-t w-4/5 border-gray-600 mx-auto pb-8" />
 
                 <p className=' text-left pl-8  pb-4 text-[#b3dcf2] text-2xl font-bold'>activity :</p>
 
