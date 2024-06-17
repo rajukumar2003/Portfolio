@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Footer from './components/Footer';
 import Activity from './components/Activity';
 import Internship from './components/Internship'
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
     <Skills />
     <Internship />
     <Footer />
+    <Analytics />
     
   </>
 
