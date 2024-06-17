@@ -40,7 +40,8 @@ function Skills() {
             {projectList.map((project, index) => (
                 <ProjectCard
                     key={index}
-                    avatar={project.avatar}
+                    gitLink={project.gitLink}
+                    liveLink={project.liveLink}
                     username={project.username}
                     projectName={project.projectName}
                     location={project.location}

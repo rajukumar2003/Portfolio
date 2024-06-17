@@ -5,6 +5,7 @@ import Introduction from './components/Introduction'
 import Skills from './components/Skills'
 import Footer from './components/Footer';
 import Activity from './components/Activity';
+import Internship from './components/Internship'
 
 function App() {
   
@@ -15,7 +16,8 @@ function App() {
     <Activity />
     <Introduction/>
     <Skills />
-    <Footer/>
+    <Internship />
+    <Footer />
     
   </>
 

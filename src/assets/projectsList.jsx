@@ -1,14 +1,15 @@
-import { FaJs, FaReact, FaNodeJs, FaPython } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiExpress, SiFirebase, SiNextdotjs, SiTailwindcss} from 'react-icons/si';
+import { FaJs, FaReact, FaNodeJs, FaPython,  } from 'react-icons/fa';
+import { SiTypescript, SiMongodb, SiExpress, SiFirebase, SiNextdotjs, SiTailwindcss, SiGithub} from 'react-icons/si';
 
 const projectsList = [
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://uniblind-fd882.web.app/",
+        liveLink: "https://uniblind-fd882.web.app/",
+        username: "rajukumar2003",
         projectName: "UniBlind",
         location: "Remote, India",
         duration: "April 2024 - Present",
-        role: "Team Leader",
+        role: "Team Lead",
         description: "Led a 4-person team in developing UniBlind, a platform for open university discussions, focused on anonymity to promote candid conversations.",
         technologies: [
             { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
@@ -17,8 +18,9 @@ const projectsList = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://github.com/rajukumar2003/Paytm-backend",
+        liveLink: "https://paytm-rk.onrender.com",
+        username: "rajukumar2003",
         projectName: "Paytm Clone",
         location: "Remote, India",
         duration: "February 2024",
@@ -31,8 +33,9 @@ const projectsList = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://github.com/rajukumar2003/Flask-Higher-Lower",
+        liveLink: "https://higher-lower-game-g4ay.onrender.com",
+        username: "rajukumar2003",
         projectName: "Higher Lower Game",
         location: "Remote, India",
         duration: "October 2023",
@@ -43,8 +46,9 @@ const projectsList = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://github.com/rajukumar2003/snake-o-game",
+        liveLink: null,
+        username: "rajukumar2003",
         projectName: "Snake Game",
         location: "Remote, India",
         duration: "July 2023",
@@ -56,8 +60,9 @@ const projectsList = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://github.com/rajukumar2003/Guess-Indian-States-Game",
+        liveLink: null,
+        username: "rajukumar2003",
         projectName: "Guess-Indian-States Educational Game",
         location: "Remote, India",
         duration: "August 2023",
@@ -70,8 +75,9 @@ const projectsList = [
         ]
     },
     {
-        avatar: "https://avatars.githubusercontent.com/u/56185425?v=4",
-        username: "rajuhere",
+        gitLink: "https://github.com/rajukumar2003/Pomodoro-Timer",
+        liveLink: null,
+        username: "rajukumar2003",
         projectName: "Pomodoro Timer",
         location: "Remote, India",
         duration: "October 2023",
